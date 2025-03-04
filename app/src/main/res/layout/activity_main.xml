@@ -9,12 +9,19 @@
     <!-- Left side fragment -->
     <FrameLayout
         android:id="@+id/F1"
-        android:layout_width="300dp"
-        android:layout_height="0dp"
-        android:background="@color/black"
+        android:layout_width="405dp"
+        android:layout_height="736dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/pop1"
+            android:layout_width="166dp"
+            android:layout_height="67dp"
+            android:height="200dp"
+            android:text="popUp bey" />
+    </FrameLayout>
 
     <!-- Right side fragment -->
 

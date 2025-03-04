@@ -4,12 +4,13 @@
     android:layout_width="150dp"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".First_Fragment">
+    tools:context=".First_Fragment"
+    android:background="@color/yellow">
 
     <EditText
         android:id="@+id/ET1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
     <Button
         android:id="@+id/fbn1"
         android:layout_width="wrap_content"
